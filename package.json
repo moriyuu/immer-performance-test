@@ -1,0 +1,17 @@
+{
+  "name": "immer-performance-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test1": "parcel build pattern1.js && { time node dist/pattern1.js ; } 2>> time1.txt",
+    "test2": "parcel build pattern2.js && { time node dist/pattern2.js ; } 2>> time2.txt",
+    "test3": "parcel build pattern3.js && { time node dist/pattern3.js ; } 2>> time3.txt"
+  },
+  "dependencies": {
+    "immer": "^4.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
