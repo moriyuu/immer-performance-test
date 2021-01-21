@@ -9,7 +9,7 @@
     "test3": "parcel build pattern3.js && { time node dist/pattern3.js ; } 2>> time3.txt"
   },
   "dependencies": {
-    "immer": "^4.0.0"
+    "immer": "^8.0.1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3"
